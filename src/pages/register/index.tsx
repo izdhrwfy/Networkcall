@@ -1,10 +1,11 @@
-import Navbar from '../../components/Navbar';
+import Navbar from "../../components/Navbar";
+import UserForm from "../../components/UserForm";
 
 export default function Register() {
   return (
     <>
       <Navbar />
-      <h1>Ini register page</h1>
+      <UserForm />
     </>
   );
 }
