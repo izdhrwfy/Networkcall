@@ -1,10 +1,11 @@
-import Navbar from "../../components/Navbar"
+import Navbar from "../../components/Navbar";
+import UsersTable from "../../components/UsersTable";
 
 export default function User() {
-    return(
-        <>
-            <Navbar />
-            <h1>Ini user page</h1>
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      <UsersTable />
+    </>
+  );
 }
